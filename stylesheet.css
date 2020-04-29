@@ -71,7 +71,7 @@ aside {
     text-align: center;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
-    padding: 2px 0px;
+    padding: 2px 0px 2px 0px;
 }
 .url {
     text-align: justify;

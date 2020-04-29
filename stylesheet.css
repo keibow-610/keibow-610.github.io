@@ -33,19 +33,63 @@ li {
 }
 
 /*ここまで目次*/
+.container {
+    margin-top: 100px;
+    /*
+    display: grid;
+    grid-template-columns: 200px 200px;
+    gap: 20px;
+    */
+    display: flex;
+    justify-content: space-around;
+}
 /*ここから本文*/
 main {
-    padding-top: 100px;
+    margin-top: 100px;
+    border: 2px solid black;
 }
 
 div.contents {
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 h3.tytle {
     border-top: 2px solid black;
     border-bottom: 2px solid black;
     text-align: center;
-    padding: 2px 0px;
+    padding: 2px 0px 2px 0px;
+}
+.favorite {
+    border: 2px solid black;
 }
 /*ここまで本文*/
+/*ここからサイドメニュー*/
+aside {
+    border: 2px solid black;
+}
+.aside-tytle {
+    text-align: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 2px 0px;
+}
+.url {
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/*ここまでサイドメニュー*/
+.accounts {
+    background-color: cornflowerblue;
+    
+}
+.account {
+    list-style-type: none;
+}
+.account-display {
+    display: flex;
+    justify-content: space-around;
+}
+.accounts-tytle {
+    text-align: center;
+}
